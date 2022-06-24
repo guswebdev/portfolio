@@ -1,0 +1,36 @@
+.training {
+    padding: 2rem 0;
+    background-color: var(--color-blue-10);
+  }
+  
+  .training > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .training__title{
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 1rem
+  }
+  
+  .training__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .training__img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+  }
+  
+  .training__img--width {
+    width: 150px;
+  }
