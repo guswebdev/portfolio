@@ -45,6 +45,6 @@
 **Extras:**  
 - La página debe contener un botón que le permita ver, en una nueva pestaña, una versión PDF de su currículum.
 
-*Sitio Web En Linea* : [Juego del Ahorcado](https://guswebdev.github.io/portfolio/)
+*Sitio Web En Linea* : [Portfolio Personal](https://guswebdev.github.io/portfolio/)
 
 *Linkedin* : [Gustavo Miño](https://www.linkedin.com/in/gustavo-dev-web/)
