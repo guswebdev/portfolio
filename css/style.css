@@ -1,0 +1,21 @@
+:root {
+  --color-white: #ffffff;
+  --color-azul-10: #EAF2FD;
+  --color-azul-100: #2A7AE4;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
