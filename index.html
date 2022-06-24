@@ -13,11 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome - Iconos-->
-    <script src="https://kit.fontawesome.com/8e35587b1c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ed2ba7d635.js" crossorigin="anonymous"></script>
 
     <!-- Importaciones de CSS-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -36,20 +37,55 @@
                     <a href="#training" class="header__link">Formación</a>
                     <a href="#projects" class="header__link">Proyectos</a>
                 </nav>
-                <a href="mailto:gus.desarrollo.web@gmail.com" class="header__link header__link--contacto">gus.desarrollo.web@gmail.com</a>
+                <a href="mailto:gus.desarrollo.web@gmail.com"
+                    class="header__link header__link--contacto">gus.desarrollo.web@gmail.com</a>
             </div>
         </div>
     </header><!-- Seccion Header -->
 
     <main>
-        <div class="container">
-            <h1>Hola es una prueba</h1>
-            <a href="./assets/cv/cv-gustavo-miño.pdf" target="_blank">Hace Click Para CV</a>
-        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__img"> 
+                    <img src="./assets/img/foto-perfil.jpg" alt="foto de perfil">
+                </div>
+                <div class="hero__content">
+                    <h2 class="hero__title">Hola, mi nombre es Gustavo Miño y construyo paginas web</h2>
+                    <p class="hero__description">
+                        Soy formado en desarrolo web y actualmente estoy participando en el proyecto Oracle ONE en Alura
+                        Latam.
+                    </p>
+                    <nav class="hero__networks">
+                        <a href="https://github.com/guswebdev" class="hero__link">
+                            <span class="hero__link-text">Github</span>
+                            <i class="fa-solid fa-up-right-from-square hero__icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gustavo-dev-web/" class="hero__link">
+                            <span class="hero__link-text">Linkedin</span>
+                            <i class="fa-solid fa-up-right-from-square hero__icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gusemmanuel23/" class="hero__link">
+                            <span class="hero__link-text">Instagram</span>
+                            <i class="fa-solid fa-up-right-from-square hero__icon"></i>
+                        </a>
+                        <a href="./assets/cv/cv-gustavo-miño.pdf" class="hero__link">
+                            <span class="hero__link-text">Curriculum</span>
+                            <i class="fa-solid fa-up-right-from-square hero__icon"></i>
+                        </a>
+
+
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+
     </main>
+    <!-- Seccion Footer -->
     <footer class="footer">
         <small>&copy; 2022 | Desarollado por Gustavo Miño</small>
-    </footer>
+    </footer><!-- Seccion Footer -->
 
     <script src="app.js" type="module"></script>
 </body>
