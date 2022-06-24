@@ -1,7 +1,9 @@
 :root {
   --color-white: #ffffff;
-  --color-azul-10: #EAF2FD;
-  --color-azul-100: #2A7AE4;
+  --color-black: #222222;
+  --color-blue-10: #EAF2FD;
+  --color-blue-100: #2A7AE4;
+  --background: #E5E5E5;
 }
 
 html {
@@ -18,4 +20,20 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {text-decoration: none;}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }

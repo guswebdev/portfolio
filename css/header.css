@@ -1,0 +1,39 @@
+.header {
+    background-color: var(--background);
+    padding: 1rem 0;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: var(--color-black);
+    font-size: 1.25rem;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__link {
+    color: var(--color-black);
+    padding: 0 .5rem;
+    transition: all .3s;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__link--contacto {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px){
+    .header__nav {
+        display: initial;
+    }
+}
