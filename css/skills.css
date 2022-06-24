@@ -1,0 +1,34 @@
+.skills {
+    padding: 2rem 0;
+    background-color: var(--background);
+  }
+  
+  .skills > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .skills__title {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .skills__card {
+    width: 175px;
+    height: 175px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skills__icon {
+    color: var(--color-blue-100);
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
