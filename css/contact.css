@@ -60,7 +60,10 @@
     background-color: var(--color-white);
     color: var(--color-blue-100);
   }
-  
+
+  .contact__alert {
+    color: #ac0a0a;
+  }
   
   .contact__img{
     display: none;

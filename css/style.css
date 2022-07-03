@@ -1,11 +1,9 @@
 :root {
   --color-white: #ffffff;
   --color-black: #222222;
-  /*--color-blue-10: #eaf2fd;*/
   --color-blue-100: #1552A2;
-  --color-blue-10: rgba(21, 82, 162, 0.1);
-  --color-blue-50: rgba(21, 82, 162, 0.5);
-  /*--color-blue-50: rgba(42, 123, 228, 0.5);*/
+  --color-blue-10: #1552a21a;
+  --color-blue-50: #1552a280;
   --background: #e5e5e5;
 }
 
@@ -63,4 +61,8 @@ p {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.d-none {
+  display: none;
 }

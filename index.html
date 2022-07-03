@@ -229,7 +229,7 @@
                 <div class="contact__img">
                     <img src="./assets/img/contacto.png" alt="Foto con auricular">
                 </div>
-                <form class="contact__form">
+                <form class="contact__form" data-form>
                     <h2 class="contact__title">Contacto</h2>
                     <p class="contact__description">
                         ¿Quieres contactarme? Complete el siguiente formulario y me pondré en contacto con ustedes lo
@@ -237,21 +237,41 @@
                     </p>
                     <div class="contact__field">
                         <label for="nombre" class="contact__label">Nombre</label>
-                        <input id="nombre" class="contact__input" type="text" placeholder="André Lisboa">
+                        <input id="nombre" class="contact__input" type="text" placeholder="André Lisboa" data-nombre
+                            required title="El campo no debe estar vacio, no debe exceder los 50 caracteres y solo permite letras">
+                        <div class="contact__alert d-none">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <span class="contact__alert-text">El campo no debe estar vacio, no debe exceder los 50 caracteres y solo permite letras. Es requerido</span>
+                        </div>
+
                     </div>
                     <div class="contact__field">
                         <label for="email" class="contact__label">Email</label>
-                        <input id="email" class="contact__input" type="email" placeholder="andre.lisboa@gmail.com">
+                        <input id="email" class="contact__input" type="email" placeholder="andre.lisboa@gmail.com"
+                            data-email>
+                            <div class="contact__alert d-none">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <span class="contact__alert-text">El campo no debe estar vacio, deber estar en formato e-mail Ejemplo: *texto@texto.com* . Es requerido</span>
+                            </div>
                     </div>
                     <div class="contact__field">
                         <label for="subject" class="contact__label">Asunto</label>
                         <input id="subject" class="contact__input" type="text"
-                            placeholder="Me gustaria hablar de un proyecto.">
+                            placeholder="Me gustaria hablar de un proyecto." data-subject>
+                            <div class="contact__alert d-none">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <span class="contact__alert-text">El campo no debe estar vacio, no debe exceder los 50 caracteres y solo permite letras. Es requerido</span>
+                            </div>
                     </div>
                     <div class="contact__field">
                         <label for="message" class="contact__label">Mensaje</label>
                         <textarea name="message" id="message" class="contact__input contact__input--textarea" cols="30"
-                            rows="10" placeholder="Hola, me gustaria que me contactes por tal motivo ..."></textarea>
+                            rows="10" placeholder="Hola, me gustaria que me contactes por tal motivo ..."
+                            data-message></textarea>
+                            <div class="contact__alert d-none">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <span class="contact__alert-text">El campo no debe estar vacio, no debe exceder los 300 caracteres. Es requerido.</span>
+                            </div>
                     </div>
                     <input class="contact__btn contact__btn--demo" target="_blank" type="submit" value="Enviar Mensaje">
                 </form>
@@ -269,18 +289,3 @@
 </body>
 
 </html>
-
-<!--
-    Algunas cosas sobre mi: tengo 28 años, naci y vivo en Argentina.
-    Estoy en pareja con Jesica y tengo dos hijos, Ían y Mia.
-    Me gusta mucho el Jugar al tenis, salir a correr y pasar tiempo con mi familia.
-    
-    Estoy estudiando en la facultad una tecnicatura en desarrollo web y en este momento soy parte de la iniciativa ONE de Oracle.
-    
-    Mi deseo es convertirme en un desarrollador Front-End.
-    Busco siempre trabajar en equipo, cooperando con todos y apoyando de la mejor manera posible, con gran satisfacción en enseñar y aprender.
-
-
-Busco oportunidades para hacer prácticas en el área de Desarrollo Web, que permita mi crecimiento intelectual y a desarrollar mis conocimientos técnicos, para crecer junto a la empresa y a mis compañeros de trabajo.
-
--->
