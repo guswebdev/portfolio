@@ -1,8 +1,11 @@
 :root {
   --color-white: #ffffff;
   --color-black: #222222;
-  --color-blue-10: #eaf2fd;
-  --color-blue-100: #2a7ae4;
+  /*--color-blue-10: #eaf2fd;*/
+  --color-blue-100: #1552A2;
+  --color-blue-10: rgba(21, 82, 162, 0.1);
+  --color-blue-50: rgba(21, 82, 162, 0.5);
+  /*--color-blue-50: rgba(42, 123, 228, 0.5);*/
   --background: #e5e5e5;
 }
 
@@ -35,6 +38,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: var(--color-black);
 }
 
 main {
@@ -60,4 +64,3 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-

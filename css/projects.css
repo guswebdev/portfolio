@@ -1,6 +1,6 @@
 .projects {
   padding: 2rem 0;
-  background-color: var(--background);
+  background-color: var(--color-white);
 }
 
 .projects > .container {
@@ -11,6 +11,11 @@
 
 .projects__title {
   text-align: center;
+  color: var(--color-blue-100);
+}
+
+.projects__subtitle {
+  color: var(--color-blue-100);
 }
 
 .projects__content {

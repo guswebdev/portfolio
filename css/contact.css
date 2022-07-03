@@ -1,0 +1,92 @@
+.contact {
+    padding: 4rem 0;
+    background-color: var(--color-blue-10);
+  }
+  
+  .contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact__title {
+    color: var(--color-blue-100);
+  }
+  
+  .contact__field {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .contact__label {
+    color: var(--color-blue-100);
+  }
+  
+  .contact__input {
+    font-family: "Raleway", sans-serif;
+    padding: 1rem .5rem;
+    border: none;
+    border-bottom: solid thin #55555588;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all .1s;
+  }
+  
+  .contact__input::placeholder {
+    font-size: 1rem;
+  }
+  
+  .contact__input:focus {
+    outline: none;
+    border-bottom: solid 2px var(--color-blue-100);
+  }
+  
+  .contact__input--textarea {
+    resize: none;
+  }
+  
+  .contact__btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-blue-100);
+    color: var(--color-white);
+    border: thin solid var(--color-blue-100);
+    align-self: flex-start;
+    cursor: pointer;
+  }
+  
+  .contact__btn--demo:hover {
+    background-color: var(--color-white);
+    color: var(--color-blue-100);
+  }
+  
+  
+  .contact__img{
+    display: none;
+  }
+  
+  
+  @media screen and (min-width: 1024px){
+    .contact > .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .contact__img {
+      flex-basis: 40%;
+    }
+    
+    .contact__form {
+      flex-basis: 55%;
+    }
+  
+    .contact__input::placeholder {
+      font-size: .8rem;
+    }
+  
+    .contact__img{
+      display: initial;
+    }
+  }
