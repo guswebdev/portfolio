@@ -1,4 +1,4 @@
-export const validarNombre = (target) => {
+export const validarNombre = (e,target) => {
     e.preventDefault();
     const regExpr = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/g;
 

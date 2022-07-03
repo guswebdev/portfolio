@@ -1,4 +1,4 @@
-export const validarEmail = (target) => {
+export const validarEmail = (e,target) => {
     e.preventDefault();
     const regExpr =
       /^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$/g;

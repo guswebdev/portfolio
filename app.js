@@ -10,19 +10,19 @@ const $form = d.querySelector("[data-form]");
 
 const blur = (e) => {
   if (e.target.matches(`[data-nombre]`)) {
-    validarNombre(e.target)
+    validarNombre(e,e.target)
   }
 
   if (e.target.matches(`[data-email]`)) {
-    validarEmail(e.target)
+    validarEmail(e,e.target)
   }
 
   if (e.target.matches(`[data-subject]`)) {
-    validarAsunto(e.target)
+    validarAsunto(e,e.target)
   }
 
   if (e.target.matches(`[data-message]`)) {
-    validarMensaje(e.target)
+    validarMensaje(e,e.target)
   }
 
 };

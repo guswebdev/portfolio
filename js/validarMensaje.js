@@ -1,4 +1,4 @@
-export const validarMensaje = (target) => {
+export const validarMensaje = (e,target) => {
     e.preventDefault();
     const regExpr = /^.{1,300}$/g;
 
